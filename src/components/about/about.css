@@ -60,6 +60,10 @@
     }
 }
 
+#file-alt {
+    margin-left: 0.5rem;
+}
+
 /* For medium devices: */
 @media screen and (max-width: 576px) {
     .about__info {
