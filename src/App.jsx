@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './components/nav/Nav'
 import Home from './components/home/Home'
-import Social from './components/home/Social'
+import About from './components/about/About'
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <Nav />
       <main className="main">
         <Home />
+        <About />
       </main>
     </>
   )
