@@ -17,7 +17,7 @@
 
 .home__social-icon {
     font-size: 1.2rem;
-    color: var(--title-color);
+    color: var(--container-color);
 }
 
 .home__social-icon:hover {
@@ -82,7 +82,7 @@
 
 .home__scroll {
     margin-left: 50%;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 10%;
     width: 40px;
     height: 40px;
@@ -94,6 +94,12 @@
     color: var(--title-color-dark);
     transform: translateY(10px);
     transition: ease-in-out 1s;
+}
+
+.home__button-icon {
+    font-size: 1.5rem;
+    color: var(--container-color);
+    margin-left: 5px;
 }
 
 /* Breackpoints */
