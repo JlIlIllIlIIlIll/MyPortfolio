@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Info = () => {
   return (
@@ -15,7 +15,7 @@ const Info = () => {
         <h3 className="about__title">Lorem ipsum</h3>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Info
+export default Info;
