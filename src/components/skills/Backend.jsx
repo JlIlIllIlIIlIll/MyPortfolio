@@ -9,25 +9,13 @@ const Backend = () => {
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
-            <h3 className="skills__name">Lorem</h3>
+            <h3 className="skills__name">Python</h3>
           </div>
 
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
-            <h3 className="skills__name">Lorem</h3>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <h3 className="skills__name">Lorem</h3>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <h3 className="skills__name">Lorem</h3>
+            <h3 className="skills__name">SQL</h3>
           </div>
         </div>
 
@@ -35,25 +23,13 @@ const Backend = () => {
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
-            <h3 className="skills__name">Lorem</h3>
+            <h3 className="skills__name">Node.js</h3>
           </div>
 
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
-            <h3 className="skills__name">Lorem</h3>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <h3 className="skills__name">Lorem</h3>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <h3 className="skills__name">Lorem</h3>
+            <h3 className="skills__name">Express.js</h3>
           </div>
         </div>
       </div>

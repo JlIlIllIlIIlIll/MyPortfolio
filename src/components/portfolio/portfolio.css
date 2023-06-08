@@ -15,6 +15,7 @@
 
 .portfolio__img {
   width: 300px;
+  height: 200px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }

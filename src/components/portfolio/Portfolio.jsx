@@ -1,28 +1,19 @@
 import React from "react";
 import "./portfolio.css";
-import Project1 from "../../assets/ASTROCAT.png";
+import Project1 from "../../assets/Work1.png";
+import Project2 from "../../assets/Work2.png";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      name: "Project 1",
+      name: "My Portfolio",
       img: Project1,
     },
     {
       id: 2,
-      name: "Project 2",
-      img: Project1,
-    },
-    {
-      id: 3,
-      name: "Project 3",
-      img: Project1,
-    },
-    {
-      id: 4,
-      name: "Project 4",
-      img: Project1,
+      name: "EasySave",
+      img: Project2,
     },
   ];
   return (

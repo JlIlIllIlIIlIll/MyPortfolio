@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="nav__div">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Mohamed FTOUNI
+          My Portfolio
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list">

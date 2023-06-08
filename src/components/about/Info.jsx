@@ -4,15 +4,15 @@ const Info = () => {
   return (
     <div className="about__info grid">
       <div className="about__box">
-        <h3 className="about__title">Lorem ipsum</h3>
+        <h3 className="about__title">Creative</h3>
       </div>
 
       <div className="about__box">
-        <h3 className="about__title">Lorem ipsum</h3>
+        <h3 className="about__title">Passionate</h3>
       </div>
 
       <div className="about__box">
-        <h3 className="about__title">Lorem ipsum</h3>
+        <h3 className="about__title">Determined</h3>
       </div>
     </div>
   );
