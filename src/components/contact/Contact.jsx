@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
 import "./contact.css";
 
 const Contact = () => {
@@ -8,12 +9,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_h80bxei",
-      "template_mwgxcde",
-      form.current,
-      "eBdZjcaPF8z20Y3KO"
-    );
+    emailjs
+      .sendForm(
+        "service_h80bxei",
+        "template_mwgxcde",
+        form.current,
+        "eBdZjcaPF8z20Y3KO"
+      )
+      .then(
+        (result) => {
+          toast.success("Message sent successfully!");
+        },
+        (error) => {
+          toast.error("Message not sent!");
+        }
+      );
     e.target.reset();
   };
   return (
@@ -59,6 +69,7 @@ const Contact = () => {
               Send message <i class="uil uil-message home__button-icon"></i>
             </button>
           </form>
+          <Toaster />
         </div>
       </div>
     </section>
