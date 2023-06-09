@@ -31,3 +31,12 @@
     grid-template-columns: repeat(1, max-content);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .portfolio__img {
+    width: 200px;
+    height: 150px;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+  }
+}
